@@ -1,1 +1,16 @@
-<p>form works!</p>
+<h2>formulario de envio</h2>
+
+<form (ngSubmit)="enviar()">
+    <label>titulo</label>
+    <input type="text" [(ngModel)]="title" name="title" required>
+
+    <label>contenido</label>
+    <textarea [(ngModel)]="body" name="body" required></textarea>
+
+    <button type="submit">enviar</button>
+</form>
+
+<div *ngIf="respuesta">
+    <h3>respuesta de la API</h3>
+    <pre>{{ respuesta | json }}</pre>
+</div>  
