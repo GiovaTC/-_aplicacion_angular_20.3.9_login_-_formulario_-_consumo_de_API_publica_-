@@ -1,7 +1,9 @@
 # -_aplicacion_angular_20.3.9_login_-_formulario_-_consumo_de_API_publica_- :. 
 # Aplicación Angular 20.3.9 – Login + Formulario + Consumo de API Publica .  
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8d71ac9a-0fb6-487e-bce2-d02717384e7d" />      
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8d71ac9a-0fb6-487e-bce2-d02717384e7d" />        
+
+<img width="1347" height="729" alt="image" src="https://github.com/user-attachments/assets/b08e723d-13ac-42f5-ae2e-bce4c2cfbe27" />  
 
 <img width="1365" height="732" alt="image" src="https://github.com/user-attachments/assets/65a3efe4-f5cb-4219-83e7-89ab119b40f6" />  
 
