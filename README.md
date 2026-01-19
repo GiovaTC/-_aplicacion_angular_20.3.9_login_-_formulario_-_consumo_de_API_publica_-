@@ -3,6 +3,12 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8d71ac9a-0fb6-487e-bce2-d02717384e7d" />  
 
+<img width="1363" height="767" alt="image" src="https://github.com/user-attachments/assets/2a9244f7-21e4-4aca-b009-23f423f310b6" />  
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/5097530c-0a5a-4715-a88d-23a03bc4499e" />  
+
+<img width="1365" height="766" alt="image" src="https://github.com/user-attachments/assets/ba34d322-0ac5-425c-86f2-c2fb3aafe759" />  
+
 A continuación se presenta una **solución completa, profesional y funcional en Angular 20.3.9** que implementa:
 
 - Login básico (simulado, sin backend propio).

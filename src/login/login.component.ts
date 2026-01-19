@@ -11,7 +11,6 @@ import { AuthService } from '../app/services/auth.service';
   templateUrl: './login.component.html'
 })
 export class LoginComponent {
-
   username = '';
   password = '';
   error = '';
@@ -22,7 +21,7 @@ export class LoginComponent {
     if (this.auth.login(this.username, this.password)) {
       this.router.navigate(['/form']);
     } else {
-      this.error = "credenciales invalidas";
+      this.error = 'Credenciales inválidas';
     }
   }
-} 
+}
