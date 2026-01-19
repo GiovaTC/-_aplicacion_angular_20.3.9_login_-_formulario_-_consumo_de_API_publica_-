@@ -1,16 +1,58 @@
-<h2>formulario de envio</h2>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
 
-<form (ngSubmit)="enviar()">
-    <label>titulo</label>
-    <input type="text" [(ngModel)]="title" name="title" required>
+      <div class="card shadow-sm">
+        <div class="card-body">
 
-    <label>contenido</label>
-    <textarea [(ngModel)]="body" name="body" required></textarea>
+          <h4 class="card-title text-center mb-4">
+            Formulario de Envío
+          </h4>
 
-    <button type="submit">enviar</button>
-</form>
+          <form (ngSubmit)="enviar()">
 
-<div *ngIf="respuesta">
-    <h3>respuesta de la API</h3>
-    <pre>{{ respuesta | json }}</pre>
+            <div class="mb-3">
+              <label class="form-label">Título</label>
+              <input
+                type="text"
+                class="form-control"
+                [(ngModel)]="title"
+                name="title"
+                required
+              >
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Contenido</label>
+              <textarea
+                class="form-control"
+                rows="4"
+                [(ngModel)]="body"
+                name="body"
+                required
+              ></textarea>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-success">
+                Enviar
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+      <div *ngIf="respuesta" class="card mt-4">
+        <div class="card-body">
+          <h5 class="card-title">Respuesta de la API</h5>
+          <pre class="bg-light p-3 rounded">
+{{ respuesta | json }}
+          </pre>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>  
